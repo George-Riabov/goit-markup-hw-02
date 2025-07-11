@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, Montserrat, Lato, sans-serif;
+  font-family: Roboto, Raleway, sans-serif;
   color: #434455;
 }
 
@@ -23,4 +23,77 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+}
+.order-btn:hover {
+  background-color: #404bbf;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+}
+
+.blue-text {
+  color: #4d5ae5;
+}
+
+.black-text {
+  color: #2e2f42;
+}
+
+.navi-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+.navi-list a:hover,
+.navi-list a:focus {
+  color: #404bbf;
+}
+
+.contakt-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.contakt-info a:hover,
+.contakt-info a:focus {
+  color: #404bbf;
+}
+
+.footer {
+  width: 1440px;
+  height: 312px;
+  background-color: #2e2f42;
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.cloud-text {
+  color: #f4f4fd;
 }
