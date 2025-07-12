@@ -76,8 +76,8 @@ p {
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
-.navi-list :hover,
-.navi-list :focus {
+.navi-list:hover,
+.navi-list:focus {
   color: #404bbf;
 }
 
