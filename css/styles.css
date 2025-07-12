@@ -69,15 +69,15 @@ p {
   color: #2e2f42;
 }
 
-.navi-list a {
+.navi-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
-.navi-list a:hover,
-.navi-list a:focus {
+.navi-list :hover,
+.navi-list :focus {
   color: #404bbf;
 }
 
@@ -166,4 +166,12 @@ p {
   line-height: 1.5;
   --main-color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+
+.address {
+  font-style: normal;
+}
+.address a:hover,
+.address a:focus {
+  color: #404bbf;
 }
