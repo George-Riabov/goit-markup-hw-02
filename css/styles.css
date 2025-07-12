@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -24,7 +24,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
 }
 .order-btn:hover,
 .order-btn:focus {
@@ -68,11 +69,12 @@ p {
   color: #2e2f42;
 }
 
-.navi-list {
+.navi-list a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .navi-list a:hover,
 .navi-list a:focus {
@@ -86,7 +88,6 @@ p {
   color: #434455;
   font-style: normal;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .contakt-info a:hover,
@@ -144,4 +145,25 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+
+.head-style {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.para-style {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.foot-para {
+  line-height: 1.5;
+  --main-color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
